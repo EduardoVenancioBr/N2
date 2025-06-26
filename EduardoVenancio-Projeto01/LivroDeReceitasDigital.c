@@ -1,4 +1,4 @@
-/* Este trabalho tem como objetivo aplicar os conceitos fundamentais da linguagem C
+/* Ola!Este trabalho tem como objetivo aplicar os conceitos fundamentais da linguagem C
 aprendidos em aula para desenvolver uma aplicação console interativa: um Livro de
 Receitas Digital.
 A aplicação permitirá aos usuários gerenciar uma coleção de receitas, incluindo adicionar
@@ -12,12 +12,14 @@ entrada/saída de dados. */
 // ESCOPO GLOBAL
 #define MAX_RECEITAS 50                             // Limite constante para o Livro_De_Receitas
 const char *categorias[] = {                        // Array de strings para as categorias
+    
     "Entrada.",
     "Prato Principal.",
     "Sobremesa.",
     "Bebida.",
     "Lanche.",
     "Outro."
+
 };
 
 
